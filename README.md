@@ -29,7 +29,7 @@
 ## 🧊 EXE 版本
 
 不會寫程式也能使用！  
-前往 [Releases](https://github.com/你的帳號/你的repo/releases) 頁面下載打包好的執行檔。
+前往 [Releases](https://github.com/WenChunPan/youtube-downloader-cli/releases) 頁面下載打包好的執行檔。
 
 ---
 
