@@ -14,9 +14,10 @@
 
 ## 🚀 使用方法
 
-1. 安裝套件：pip install -r requirements.txt
-2. 下載免安裝 [FFmpeg](https://www.gyan.dev/ffmpeg/builds/)或直接使用 zip 包中附的 ffmpeg.exe（建議保留在 `ffmpeg/` 資料夾中）
-3. 執行程式：python Youtube_Downloader.py
+1. 安裝套件：`pip install -r requirements.txt`
+2. 官方下載 [FFmpeg](https://www.gyan.dev/ffmpeg/builds/)免安裝版本
+3. 解壓後將 `ffmpeg.exe` 放入專案資料夾中
+4. 執行程式：`python Youtube_Downloader.py`
 ---
 
 ## 📁 輸出結果
@@ -30,6 +31,8 @@
 
 不會寫程式也能使用！  
 前往 [Releases](https://github.com/WenChunPan/youtube-downloader-cli/releases) 頁面下載打包好的執行檔。
+
+下載後解壓縮即可使用！
 
 ---
 
