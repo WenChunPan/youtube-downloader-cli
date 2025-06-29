@@ -1,58 +1,59 @@
-# 🎥 YouTube Downloader CLI 工具
+# 🎥 YouTube Downloader CLI ツール
 
-一個簡單的 Python 命令列工具，支援從 YouTube 下載最高畫質影片與音訊，自動合併並儲存為 MP4 檔案。
+YouTube の動画と音声を高画質でダウンロードし、自動で結合して MP4 に保存できる、シンプルな Python CLI ツールです。
+
+> 🈯️ 言語切替 / 切換語言  
+> 👉 [🇯🇵 日本語](./README.md) ｜ [🌐 繁體中文](./README_zh-tw.md)
 
 ---
 
-## 📦 技術使用
+## 📦 使用技術
 
 - Python 3.x
 - pytubefix
-- ffmpeg（外部工具）
+- ffmpeg（外部ツール）
 
 ---
 
 ## 🚀 使用方法
 
-1. 安裝套件：`pip install -r requirements.txt`
-2. 官方下載 [FFmpeg](https://www.gyan.dev/ffmpeg/builds/)免安裝版本
-3. 解壓後將 `ffmpeg.exe` 放入專案資料夾中
-4. 執行程式：`python Youtube_Downloader.py`
+1. 必要なパッケージをインストール：`pip install -r requirements.txt`
+2.  [FFmpeg（公式サイト）](https://www.gyan.dev/ffmpeg/builds/)をダウンロード
+3. 解凍後、 `ffmpeg.exe` をこのプロジェクトのフォルダに配置
+4. ツールを実行する：`python Youtube_Downloader.py`
 ---
 
-## 📁 輸出結果
+## 📁 出力結果
 
-- 儲存路徑：`downloads/影片標題.mp4`
-- 錯誤紀錄：`downloads/log.txt`
+- 保存先：`downloads/動画タイトル.mp4`
+- エラーログ：`downloads/log.txt`
 
 ---
 
-## 🧊 EXE 版本
+## 🧊 EXE 版（実行ファイル版）
 
-不會寫程式也能使用！  
-前往 [Releases](https://github.com/WenChunPan/youtube-downloader-cli/releases) 頁面下載打包好的執行檔。
-
-下載後解壓縮即可使用！
+プログラミング不要！ 
+ [Releases](https://github.com/WenChunPan/youtube-downloader-cli/releases) ページから EXE 版をダウンロードして、解凍後すぐに使用できます。
 
 ---
 
 ## ⚠️ 注意事項
 
-- 僅供學術用途，請勿違反平台規定（如 YouTube 條款）
-- 若合併失敗或影片缺音，請確認 `ffmpeg.exe` 是否存在於資料夾中
+- このツールは学術目的のみに使用してください。YouTube の利用規約に反しないようご注意ください。
+- 音声がない場合や合成エラーが出た場合は、ffmpeg.exe が正しく配置されているか確認してください。
 
 ---
 
-## 🔧 關於 FFmpeg 使用
+## 🔧 FFmpeg について
 
-本工具使用 FFmpeg 合併音訊與影片。
+このツールは FFmpeg を使って音声と映像を結合しています。
 
-- `ffmpeg.exe` 為 GPLv3 授權
-- 來源：[https://www.gyan.dev/ffmpeg/builds/](https://www.gyan.dev/ffmpeg/builds/)
-- 授權條款詳見：[https://ffmpeg.org/legal.html](https://ffmpeg.org/legal.html)
+- `ffmpeg.exe` は GPLv3 ライセンスの元で配布されています
+- ソース元：[https://www.gyan.dev/ffmpeg/builds/](https://www.gyan.dev/ffmpeg/builds/)
+- 詳細ライセンス：[https://ffmpeg.org/legal.html](https://ffmpeg.org/legal.html)
 
 ---
 
 ## 📜 License
 
-本專案採用 MIT 授權條款，歡迎自由使用與修改。
+MIT ライセンスの元で公開しています。自由に使用・改変可能です。
